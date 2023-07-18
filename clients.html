@@ -1,0 +1,107 @@
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title> BH Media Clients </title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
+
+</head>
+
+<body>  
+    <section class="clients">
+        <nav>
+            <a href="index.html"><img src="images/bhlogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" style="color: #7f7976;" onclick="hideMenu()"></i> 
+                <ul>
+                    <li><a href="index.html"> الصفحة الرئيسية</a></li>
+                    <li><a href="services.html"> خدماتنا</a></li>
+                    <li><a href="contact.html"> تواصل معنا </a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" style="color:#dcc4bd" onclick="showMenu()"></i>
+        </nav>   
+            <h1> BH Media عملاء  </h1>
+    </section>
+
+
+
+
+<!---------- our clients ---------->
+    
+<section id="section"  class="campus">
+    <h1> عملائنا </h1>
+    <p> تشرفنا بالعمل مع العديد من المشاريع و مازلنا نقدم أفضل تجربة لهم </p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/rayanasweet.jpg">
+                <div class="layer">
+                    <h3> rayanasweet </h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/salonspa2.png">
+                <div class="layer">
+                    <h3> SALON SPA </h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/SAJRAYANA.jpg">
+                <div class="layer">
+                    <h3>SAJ_RAYANA</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/Qsweet.jpg">
+                <div class="layer">
+                    <h3>Q Sweet</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/omaziz.jpg">
+                <div class="layer">
+                    <h3> الخطابة أم عبدالعزيز </h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="images/gancha.jpg">
+                <div class="layer">
+                    <h3> قنجة و ملاس </h3>
+                </div>
+            </div>
+            
+        </div>
+</section>
+
+
+<section class="footer">
+    <p>made by Dema Alghannam </p>
+</section> 
+
+
+
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+
+</body>
+
+
